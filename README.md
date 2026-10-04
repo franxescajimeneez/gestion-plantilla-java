@@ -1,12 +1,20 @@
 # Gestión de Plantilla
 
-Aplicación de escritorio en Java para administrar una plantilla de empleados. Permite trabajar con perfiles comerciales y técnicos mediante una interfaz gráfica Swing y conserva la información en una base de datos SQLite local.
+![Banner de presentación de Gestión de Plantilla](docs/gestion-plantilla-banner.png)
 
-## Vista de la aplicación
+Aplicación de escritorio desarrollada con **Java 21 y Swing**, con persistencia local en **SQLite mediante JDBC** y acceso a datos separado mediante una **interfaz DAO** y su implementación `EmpleadoJdbcDAO`.
+
+Permite administrar empleados comerciales y técnicos, consultar y modificar sus datos y calcular salarios.
+
+## Aplicación en funcionamiento
+
+La siguiente captura real muestra la interfaz de la aplicación; el banner superior es una imagen de presentación.
 
 ![Interfaz de Gestión de Plantilla](docs/gestion-plantilla.png)
 
-*Datos ficticios de demostración.*
+*Datos ficticios de demostración en ambas imágenes.*
+
+La búsqueda de la interfaz filtra por nombre. Aunque el banner menciona también el DNI, la consulta por DNI está implementada en el controlador/DAO, no como filtro del buscador de la interfaz.
 
 ## Funcionalidades
 
