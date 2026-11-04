@@ -14,7 +14,7 @@ La siguiente captura real muestra la interfaz de la aplicación; el banner super
 
 *Datos ficticios de demostración en ambas imágenes.*
 
-La búsqueda de la interfaz filtra por nombre. Aunque el banner menciona también el DNI, la consulta por DNI está implementada en el controlador/DAO, no como filtro del buscador de la interfaz.
+La búsqueda de la interfaz filtra por nombre. La consulta por DNI está implementada en el controlador/DAO, no como filtro del buscador de la interfaz.
 
 ## Funcionalidades
 
